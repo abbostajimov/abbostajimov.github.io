@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>SCRUM</h3>
+					<img src="./img/scrum-header.jpg">
+				</section>
+				<section>
+				<h2>Agile:</h2>
+					<ul>
+						<li>Scrum</li>
+						<li>Kanban</li>
+						<li>Lean</li>
+						<li>...</li>
+					</ul>
+				</section>
+				<section>
+					<h4>что такое</h4>
+					<h2>Scrum?</h2>
+					<p>методология для гибкой разработки проектов</p>
+				</section>
+				<section>
+					<section>
+						<h2>Роли в scrum'e:</h2>
+						<ul>
+							<li>Scrum team</li>
+							<li>Product owner</li>
+							<li>Scrum master</li>
+						</ul>
+					</section>
+					<section>
+						<img src="./img/scrum-team.jpg" width="600">
+					</section>
+					<section>
+						<img src="./img/product-owner.png" width="800">
+					</section>
+					<section>
+						<img src="./img/Scrum-Mater.jpg" width="800">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Product Backlog</h2>
+						<p>список требовании</p>
+						<p>составляется product owner'ом</p>
+						<p>каждый список задачи имеет конкретный приоритет</p>
+					</section>
+					<section>
+						<img src="./img/product-backlog.jpg" width="800">
+					</section>
+				</section>
+				
+				<section>
+					<h2>Sprint Backlog</h2>
+					<img src="./img/sprint-backlog.png">
+				</section>
+				<section>
+					<section>
+						<h2>Sprint</h2>
+						<p>Спринт - итерация в Scrum'е, в ходе которой создается функциональный рост продукта</p>
+						<p>Продолжительность спринта от 2 до 4 недель.</p>
+						<img src="./img/sprints-in-scrum.png">
+					</section>
+					<section>
+						<h3>Daily standup</h3>
+						<img src="./img/standup.jpg" width="1000">
+					</section>
+				</section>
+				<section>
+					<section>
+						<h3>Finished sprint</h3>
+					</section>
+					<section>
+						<h4>Sprint review</h4>
+						<img src="./img/Sprint-Review.png">
+					</section>
+					<section>
+						<h4>Sprint retrospective</h4>
+						<img src="./img/Retrospective.jpg">
+					</section>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
